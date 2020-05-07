@@ -15,7 +15,7 @@ def long_planeeter_calls(array)
 end
 
 def find_the_cheeses(array)
-  array.find do |food| food == "gouda"|| food == "chedder"|| food == "camambert"
+  array.find do |food| food == "gouda"|| food == "cheddar"|| food == "camembert"
   end
 end
   cheese_types = ["cheddar", "gouda", "camembert"]
