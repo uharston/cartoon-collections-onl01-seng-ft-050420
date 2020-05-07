@@ -11,7 +11,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeeter_calls(array)
-  array.any? { |word| word.length > 4}
+  array.any? { |word| word.length < 4}
 end
 
 def find_the_cheeses(array)
