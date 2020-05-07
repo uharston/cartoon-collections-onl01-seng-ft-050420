@@ -14,7 +14,7 @@ def long_planeeter_calls(array)
   array.any? { |word| word.length > 4}
 end
 
-def find_the_cheeses(array)
+def find_the_cheese(array)
   array.find do |food| food == "gouda"|| food == "cheddar"|| food == "camembert"
   end
 end
